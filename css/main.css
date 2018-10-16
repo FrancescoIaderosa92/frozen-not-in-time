@@ -4,7 +4,7 @@ html {
 }
 
 h1 {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka One', sans-serif;
   color: #990073;
   top: 150px;
   left: 50px;
@@ -14,7 +14,7 @@ h1 {
 
 p {
   max-width:19em;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka One', sans-serif;
   color: #c09;
   top: 225px;
   left: 55px;
@@ -23,7 +23,7 @@ p {
 }
 
 .btn-ice-cream {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka One', sans-serif;
   top: 350px;
   left: 50px;
   position: absolute;
@@ -34,7 +34,7 @@ p {
 }
 
 .btn-ghost {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka One', sans-serif;
   top: 350px;
   left: 50px;
   position: absolute;
