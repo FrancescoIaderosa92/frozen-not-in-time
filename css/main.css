@@ -1,35 +1,149 @@
 html {
   background-color: #c9fcff;
+  repeating-linear-gradient()
 }
 
 h1 {
-
+  font-family: 'Fredoka One', cursive;
+  color: #990073;
+  top: 150px;
+  left: 50px;
+  position: absolute;
+  transform: rotate(-10deg);
 }
 
 p {
+  max-width:19em;
+  font-family: 'Fredoka One', cursive;
+  color: #c09;
+  top: 225px;
+  left: 55px;
+  position: absolute;
+  transform: rotate(-5deg);
+}
+
+.btn-ice-cream {
+  font-family: 'Fredoka One', cursive;
+  top: 350px;
+  left: 50px;
+  position: absolute;
+  border: 4px solid #c09;
+  color: #c09;
+  border-radius: 4px;
+  padding: .5em 1em;
+}
+
+.btn-ghost {
+  font-family: 'Fredoka One', cursive;
+  top: 350px;
+  left: 50px;
+  position: absolute;
+  border: 4px solid #c09;
+  border-radius: 4px;
+  padding: .5em 1em;
+}
+
+.btn-ghost:hover {
 
 }
 
-.btn {
-
+.scoop {
+  height: 180px;
+  width: 180px;
 }
 
+
+.ice-cream {
+  min-height: 480px;
+  background: red;
+}
 .cherry {
+  left: 25%;
+  bottom: 100%;
 
+  animation: cherry-drop 500ms linear forwards;
+
+}
+
+@keyframes cherry-drop {
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 325px;
+  }
 }
 
 .vanilla-and-chocolate {
+  left: 25%;
+  bottom: 100%;
 
+  animation: vanilla-and-chocolate-drop 500ms linear forwards;
+
+}
+
+@keyframes vanilla-and-chocolate-drop {
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 250px;
+  }
 }
 
 .chocolate-chip {
+  left: 25%;
+  bottom: 100%;
 
+  animation: chocolate-chip-drop 500ms linear forwards;
+
+}
+
+@keyframes chocolate-chip-drop {
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 175px;
+  }
 }
 
 .mint {
+  left: 25%;
+  bottom: 100%;
+
+  animation: mint-drop 500ms linear forwards;
 
 }
 
+@keyframes mint-drop {
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 110px;
+  }
+}
+
 .ice-cream-cone {
+  left: 25%;
+  bottom:100%;
+
+  animation: ice-cream-cone-drop 500ms linear forwards;
+}
+
+
+@keyframes ice-cream-cone-drop {
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 0;
+  }
 
 }
