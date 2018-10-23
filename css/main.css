@@ -3,6 +3,26 @@ html {
   background-image: repeating-linear-gradient(-33deg, #b3fbff, #b3fbff 10px, #d4fdff 10px, #d4fdff 20px);
 }
 
+.text {
+
+  opacity: 0;
+
+  animation: llama 3s forwards ease;
+}
+
+@keyframes llama {
+
+  0% {
+    filter: blur(7px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
 h1 {
   font-family: "Fredoka One", sans-serif;
   text-shadow: 1px 1px rgba(0, 0, 0, .4);
@@ -37,7 +57,7 @@ p {
 }
 
 .btn {
-
+  text-shadow: 1px 1px rgba(0, 0, 0, .4);
 }
 
 .btn-ghost {
@@ -64,7 +84,7 @@ p {
 }
 
 .cherry {
-  left: 25%;
+  left: 20%;
   bottom: 100%;
 
   animation: cherry-drop 500ms linear forwards;
@@ -77,13 +97,13 @@ p {
   }
 
   100% {
-    bottom: 325px;
+    bottom: 320px;
   }
 
 }
 
 .vanilla-and-chocolate {
-  left: 25%;
+  left: 20%;
   bottom: 100%;
 
   animation: vanilla-and-chocolate-drop 500ms linear forwards;
@@ -102,7 +122,7 @@ p {
 }
 
 .chocolate-chip {
-  left: 25%;
+  left: 20%;
   bottom: 100%;
 
   animation: chocolate-chip-drop 500ms linear forwards;
@@ -121,7 +141,7 @@ p {
 }
 
 .mint {
-  left: 25%;
+  left: 20%;
   bottom: 100%;
 
   animation: mint-drop 500ms linear forwards;
@@ -140,7 +160,7 @@ p {
 }
 
 .ice-cream-cone {
-  left: 25%;
+  left: 20%;
   bottom: 100%;
 
   animation: ice-cream-cone-drop 500ms linear forwards;
