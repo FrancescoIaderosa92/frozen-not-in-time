@@ -13,7 +13,7 @@ html {
 @keyframes llama {
 
   0% {
-    filter: blur(7px);
+    filter: blur(1px);
     opacity: 0;
   }
 
